@@ -13,7 +13,7 @@ import {
   CursorArrowIcon,
   PlayIcon,
 } from "@radix-ui/react-icons"
-import { FunctionIcon, EllipseIcon } from "components/icons"
+import { FunctionIcon, EllipseIcon, LatexIcon } from "components/icons"
 
 type Section = {
   title: string
@@ -47,7 +47,7 @@ export const Guides: Section[] = [
       { title: "Ellipses", icon: EllipseIcon, slug: "ellipses" },
       { title: "Graphs", icon: FunctionIcon, slug: "graphs" },
       { title: "Text", icon: TextIcon, slug: "text" },
-      { title: "LaTeX", icon: TextIcon, slug: "latex" },
+      { title: "LaTeX", icon: LatexIcon, slug: "latex" },
       { title: "Vectors", icon: ArrowTopRightIcon, slug: "vectors" },
       { title: "Vector fields", icon: DoubleArrowRightIcon, slug: "vector-fields" },
     ],
